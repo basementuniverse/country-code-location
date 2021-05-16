@@ -16,7 +16,10 @@ npm install @basementuniverse/country-code-location
 
 Import the package:
 ```typescript
-import { countryCodeToLocation, locationToCountryCode } from '@basementuniverse/country-code-location';
+import {
+  countryCodeToLocation,
+  locationToCountryCode
+} from '@basementuniverse/country-code-location';
 ```
 
 Convert a country code into a location:
