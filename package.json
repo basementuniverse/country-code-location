@@ -17,6 +17,10 @@
   ],
   "author": "Gordon Larrigan <gordonlarrigan@gmail.com> (https://gordonlarrigan.com)",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/basementuniverse/country-code-location.git"
+  },
   "devDependencies": {
     "@types/jest": "^26.0.23",
     "jest": "^26.6.3",
