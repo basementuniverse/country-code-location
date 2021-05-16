@@ -13,7 +13,7 @@ function haversine(aLat, aLong, bLat, bLong) {
 function countryCodeToLocation(countryCode) {
     return countries.find(country => country.code.localeCompare(countryCode, 'en', {
         sensitivity: 'base'
-    }));
+    }) === 0);
 }
 exports.countryCodeToLocation = countryCodeToLocation;
 function locationToCountryCode(lat, long) {
