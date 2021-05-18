@@ -1,6 +1,6 @@
 {
   "name": "@basementuniverse/country-code-location",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "description": "Convert between 2-digit country codes and locations",
   "main": "build/src/index.js",
   "scripts": {
